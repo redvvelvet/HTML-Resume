@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+    margin: 20px auto 20px auto;
+    padding: 10px; 
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP';
+    color: #544a44;
+    font-size: 14px;
+    list-style: none;
+}  
+
+.cv {
+    background-color:#f7f2ef;;
+    width: 900px;
+    height: auto;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: -10px;
+    padding-right: 20px;
+}
+
+.left_cv {
+    width: 40%;
+    background-color: #154c79;
+}
+
+.left_cv p {
+    color:#f7f2ef;
+}
+
+.left_cv h3 {
+    color:#f7f2ef;
+}
+
+.right_cv {
+    width: 60%;
+    border-top: 3px solid #154c79;
+    border-right: 3px double #154c79;
+    border-bottom: 3px double #154c79;
+}
+
+.right_cv h3 {
+    color: #154c79;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border: 2px solid #baa69c;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name {
+    text-align: center;
+}
+
+.name li {
+    text-transform: uppercase;
+    font-family: 'Playfair Display';
+    color: #154c79;
+    font-weight: 100;
+    display: inline;
+    padding: 2px;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.name p {
+    font-family: 'Great Vibes';
+    margin-top: -30px;
+    margin-bottom: -20px;
+    margin-left: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 35px;  
+    color: #9b8579;
+}
+
+.contact {
+    padding-left: 2%;
+}
+
+.contact p {
+    padding-right: 20px; 
+    display: inline;
+    margin-left: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    margin-top: -20px;
+    margin-left: 5%;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    content: "";
+    display: block;
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 12px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #9b8579;
+    width: 65%;
+    padding: 12px;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.skill p {
+    margin-top: 8px;
+    margin-bottom: -20px;
+}
+
+.container {
+    width: 90%;
+    background-color: #baa69c;
+    margin-left: 13px;
+    margin-top: -5px;
+    padding: 0;
+}
+
+.python {
+    width: 75%;
+    background-color: #9b8579;
+    margin-left: 0;
+}
+
+.machile {
+    width: 85%;
+    background-color: #9b8579;
+    margin-left: 0;
+}
+
+.sql {
+    width: 80%;
+    background-color: #9b8579;
+    margin-left: 0;
+}
+
+.stat {
+    width: 70%;
+    background-color: #9b8579;
+    margin-left: 0;
+}
+
+.dv {
+    width: 80%;
+    background-color: #9b8579;
+    margin-left: 0;
+}
+
+.education {
+    margin-left: 3%;
+}
+
+.project {
+    margin-top: -20px;
+    margin-left: 3%;
+}
+
+.title {
+    font-weight: bold;
+    color: #154c79;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.about p {
+    margin-top: 10px;
+}
